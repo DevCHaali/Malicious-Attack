@@ -36,26 +36,24 @@ You will be presented with a menu to select from the following options:
 [1] Scanner Wifi (Airodump-ng).
 [2] Get password Wifi and WPS pin (Wifite).
 [3] Deauth Attack in wifi (Aireplay-ng).
-[4] Exit
+[4] Exit```
 
 
 Follow the prompts to select your desired operation.
 
-Code Structure
+## Code Structure
+    malicious_attack.py: Main script that runs the tool.
+    data.json: File to store persistent data.
+## Example
+    Selecting a Wireless Interface
+    The tool scans for available wireless interfaces and allows you to select one:
 
-
-malicious_attack.py: Main script that runs the tool.
-data.json: File to store persistent data.
-Example
-Selecting a Wireless Interface
-The tool scans for available wireless interfaces and allows you to select one:
-
-
+```bash
 Select your Interface:
 [0]- wlan0
 [1]- wlan1
 [+] 0
-Wireless selected is: wlan0
+Wireless selected is: wlan0```
 
 
 
@@ -67,9 +65,9 @@ Monitor mode enabled successfully.
 Scanner Started...
 
 
-Deauthentication Attack
+## Deauthentication Attack
 The tool allows you to execute a deauthentication attack on a selected Wi-Fi network:
-
+```bash
 Select your Wi-Fi:
 +----+-------------------+---------+------------+
 | ID | BSSID             | Channel | ESSID      |
@@ -77,9 +75,9 @@ Select your Wi-Fi:
 | 0  | 00:14:6C:7E:40:80 | 6       | ExampleNet |
 +----+-------------------+---------+------------+
 Entry ID: 0
-Attack Deauth start
+Attack Deauth start```
 
-Disclaimer
+## Disclaimer
 
 This tool is intended for educational purposes only. Unauthorized use of this tool to attack networks without permission is illegal and unethical. Use responsibly and always ensure you have permission to test any network you do not own.
 
