@@ -27,6 +27,7 @@ Malicious Attack is a command-line tool designed for beginners in the field of c
 
 Run the tool with:
 ```bash
+sudo su
 python3 malicious_attack.py
 
 You will be presented with a menu to select from the following options:
