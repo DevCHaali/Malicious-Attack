@@ -15,7 +15,7 @@ Malicious Attack is a command-line tool designed for beginners in the field of c
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/malicious-attack.git
+    git clone https://github.com/DevCHaali/malicious-attack.git
     ```
 2. Change into the directory:
     ```bash
